@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Doom Patrol</title>
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/css/reset.css" />
+  <link rel="stylesheet" href="./src/css/estilos.css" />
+  <link rel="stylesheet" href="./src/css/responsivo.css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.png" alt="Logo Doom Patrol" />
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="dr-niles-caulder" data-name="Dr. Niles Caulder"
+          data-description="Dr. Niles Caulder - The Chief é o mentor e líder da Doom Patrol. Ele é um cientista brilhante, mas não possui poderes sobrenaturais. Sua especialidade é o estudo de fenômenos paranormais e a ajuda aos &#x22;monstros&#x22; com habilidades extraordinárias.">
+          <img src="./src/imagens/card-dr-niles-caulder.jpg" alt="Personagem #" />
+        </li>
+        <li class="personagem" id="larry-trainor" data-name="Larry Trainor"
+          data-description="Larry Trainor - Negative Man é um ex-piloto de testes que adquiriu poderes após um acidente de avião. Ele é capaz de canalizar uma entidade de energia negativa e controlá-la, mas para isso precisa estar contido em bandagens e roupas protetoras.">
+          <img src="./src/imagens/card-larry-trainor.jpg" alt="Personagem #" />
+        </li>
+        <li class="personagem" id="rita-farr" data-name="Rita Farr"
+          data-description="Rita Farr - Elasti Woman é uma atriz que foi exposta a uma substância tóxica durante uma filmagem. Como resultado, ela pode alterar a forma do seu corpo e esticá-lo de maneiras incríveis, tornando-se a Elasti-Woman.">
+          <img src="./src/imagens/card-rita-farr.jpg" alt="Personagem #" />
+        </li>
+        <li class="personagem" id="cliff-steele" data-name="Cliff Steele"
+          data-description="Cliff Steele - Robotman era um famoso piloto de corridas que sofreu um terrível acidente que destruiu seu corpo. Seu cérebro foi colocado em um corpo robótico, transformando-o no poderoso Robotman, com força sobre-humana e resistência.">
+          <img src="./src/imagens/card-cliff-steele.jpg" alt="Personagem #" />
+        </li>
+        <li class="personagem" id="crazy-jane" data-name="Crazy Jane"
+          data-description="Crazy Jane é uma mulher com Transtorno de Identidade Dissociativa (TID) e possui múltiplas personalidades, cada uma com um superpoder diferente. Cada personalidade tem habilidades únicas, como telecinese, controle do tempo e manipulação de realidades.">
+          <img src="./src/imagens/card-crazy-jane.jpg" alt="Personagem #" />
+        </li>
+        <li class="personagem" id="victor-stone" data-name="Victor Stone"
+          data-description="Victor Stone é um jovem atleta que sofreu um grave acidente e foi salvo pelo Dr. Niles Caulder. Ele foi transformado em Cyborg, um ser meio-humano, meio-máquina, com habilidades cibernéticas avançadas, como força sobre-humana, armas embutidas e acesso à tecnologia.">
+          <img src="./src/imagens/card-victor-stone.jpg" alt="Personagem #" />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/imagens/card-dr-niles-caulder.png" alt="Personagem selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">
+          Dr. Niles Caulder
+        </h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Dr. Niles Caulder - The Chief é o mentor e líder da Doom Patrol. Ele
+          é um cientista brilhante, mas não possui poderes sobrenaturais. Sua
+          especialidade é o estudo de fenômenos paranormais e a ajuda aos
+          &#x22;monstros&#x22; com habilidades extraordinárias.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Javascript -->
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
